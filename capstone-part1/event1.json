@@ -1,0 +1,16 @@
+{
+    "Version": "2024-09-05",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "s3:GetObject",
+          "s3:ListBucket"
+        ],
+        "Resource": [
+          "arn:aws:s3:::teechoon68-capstone",
+          "arn:aws:s3:::teechoon68-capstone/*"
+        ]
+      }
+    ]
+  }
